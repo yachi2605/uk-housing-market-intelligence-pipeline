@@ -37,7 +37,7 @@ Or using the GitHub API:
 ```bash
 curl -X PUT \
   -H "Authorization: token YOUR_TOKEN" \
-  -H "Accept: application/vnd.github.mercy-preview+json" \
+  -H "Accept: application/vnd.github+json" \
   https://api.github.com/repos/yachi2605/uk-housing-market-intelligence-pipeline/topics \
   -d '{"names":["real-estate","property-analysis","uk-housing","price-prediction","land-registry","machine-learning","data-analytics","geospatial-analysis","dashboard","postgresql"]}'
 ```
