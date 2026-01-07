@@ -32,12 +32,15 @@ Alternatively, topics can be added using the GitHub CLI:
 gh repo edit --add-topic real-estate,property-analysis,uk-housing,price-prediction,land-registry,machine-learning,data-analytics,geospatial-analysis,dashboard,postgresql
 ```
 
-Or using the GitHub API:
+Or using the GitHub API (requires a personal access token with `repo` scope):
 
 ```bash
 curl -X PUT \
-  -H "Authorization: token YOUR_TOKEN" \
+  -H "Authorization: Bearer YOUR_PERSONAL_ACCESS_TOKEN" \
   -H "Accept: application/vnd.github+json" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
   https://api.github.com/repos/yachi2605/uk-housing-market-intelligence-pipeline/topics \
   -d '{"names":["real-estate","property-analysis","uk-housing","price-prediction","land-registry","machine-learning","data-analytics","geospatial-analysis","dashboard","postgresql"]}'
 ```
+
+Note: Replace `YOUR_PERSONAL_ACCESS_TOKEN` with a fine-grained personal access token that has repository access.
