@@ -1,0 +1,2 @@
+transactions,districts,counties,min_date,max_date,avg_price,median_price,p25_price,p75_price,total_revenue,new_build_rate,freehold_rate
+22489348,454,127,1995-01-01,2017-06-29,178244.21208765145,130000.0,75000.0,210000.0,4008596114625.0,0.1021226582469176,0.763757579810673

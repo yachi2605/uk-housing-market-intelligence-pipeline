@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: uk_ppd_postgres
+    environment:
+      POSTGRES_DB: uk_ppd
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata_uk_ppd:/var/lib/postgresql/data
+
+volumes:
+  pgdata_uk_ppd:
+
+

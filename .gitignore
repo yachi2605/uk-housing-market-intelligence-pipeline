@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data outputs
+/data/raw/
+/data/interim/
+/data/processed/
+
+# Env
+.env
+
+# OS
+.DS_Store
