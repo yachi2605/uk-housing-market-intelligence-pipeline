@@ -1,0 +1,10 @@
+real-estate
+property-analysis
+uk-housing
+price-prediction
+land-registry
+machine-learning
+data-analytics
+geospatial-analysis
+dashboard
+postgresql
