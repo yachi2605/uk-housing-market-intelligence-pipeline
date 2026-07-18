@@ -250,7 +250,7 @@ Questions Addressed:
 
 ⸻
 
-Why This Is Graduate-Level
+
 
 This project demonstrates:
 	•	Large-scale data handling
